@@ -1,0 +1,27 @@
+What Convex provides
+A database to store your data.
+Backend functions (queries, mutations, actions) that your frontend calls.
+Real-time updates so your UI updates automatically when data changes.
+Authentication integration with providers like Clerk or Auth.js.
+Hosting for your backend, so you don't have to manage servers.
+Without Convex
+You might build a stack like:
+
+React/Next.js
+      │
+      ▼
+Express.js API
+      │
+      ▼
+PostgreSQL or MongoDB
+
+
+With Convex
+React/Next.js
+      │
+      ▼
+   Convex
+ ├── Database
+ ├── Backend functions
+ ├── Real-time sync
+ └── Deployment

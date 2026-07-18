@@ -1,0 +1,26 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "pixabay.com",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "pastel-echidna-998.convex.cloud",
+        port: "",
+      },
+    ],
+  },
+   experimental: {
+    serverActions: {
+      bodySizeLimit: "10mb",
+    },
+  },
+};
+
+export default nextConfig;
