@@ -10,8 +10,8 @@ export default function HomePage() {
             Welcome to
           </p>
 
-          <h1 className="bg-gradient-to-r from-white to-violet-500 bg-clip-text text-transparent text-6xl font-bold">
-            Arha<span className="text-violet-600 animate-pulse">.</span>
+          <h1 className="bg-gradient-to-r from-white to-violet-500 bg-clip-text text-transparent text-6xl font-bold">Arhama
+            <span className="text-violet-600 animate-pulse">~</span>
           </h1>
 
           <h2 className="mt-6 text-3xl md:text-4xl font-semibold tracking-tight">
@@ -24,12 +24,12 @@ export default function HomePage() {
             <span> Hi, I'm</span>
             &nbsp;
             <span className="font-semibold text-foreground text-xl">
-              Arhama
+              Arhama Siddiqui
             </span>
             &nbsp;
             <span>I built</span>
             &nbsp;
-            <span className="font-medium text-xl">Arha.</span>
+            <span className="font-medium text-xl">Arhama</span>
             &nbsp;
             <span>
               while learning modern web development. Every project helps me
